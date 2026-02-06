@@ -18,17 +18,17 @@
 }
 
 :root {
-	--background: linear-gradient(190deg, #020617, #064e3b, #022c22);
-	--header: linear-gradient(90deg, #020617, #065f46, #10b981);
-	--btn: linear-gradient(135deg, #10b981, #059669);
-	--container: linear-gradient(180deg, #020617, #064e3b);
-	--second-btn: linear-gradient(135deg, #115e59, #042f2e);
-	--white: #f0fdf4;
-	--grey: #bbf7d0;
-	--dark: #042f2e;
-	--dark-second: #134e4a;
-	--shadow: rgba(16, 185, 129, 0.25);
-	--ring: #38bdf8; /* Крижаний блакитний для контрасту */
+	--background: linear-gradient(190deg, #0c0a09 0%, #1c1917 50%, #0c0a09 100%);
+	--header: linear-gradient(90deg, #0c0a09, #44403c, #57534e);
+	--btn: linear-gradient(135deg, #f59e0b, #b45309);
+	--container: linear-gradient(180deg, rgba(68, 64, 60, 0.3), rgba(12, 10, 9, 0.8));
+	--second-btn: linear-gradient(135deg, #44403c, #0c0a09);
+
+	--white: #fafaf9;
+	--grey: #78716c;
+	--dark: #09090b;
+	--dark-second: #292524;
+	--border: #d97706;
 }
 * {
 	margin: 0;
@@ -121,7 +121,7 @@ header {
 	padding: 16px 32px;
 	background: var(--header);
 	border-radius: 12px;
-	box-shadow: -8px 8px 5px var(--shadow);
+	box-shadow: -2px 2px 12px 2px var(--border);
 	position: sticky;
 	top: 0;
 	z-index: 150;
@@ -199,12 +199,12 @@ header::after {
 	position: relative;
 	background: var(--second-btn);
 	padding: 8px 12px;
-	border: none;
+	border: 2px solid var(--border);
 	border-radius: 12px;
 	font-size: 1rem;
 	color: var(--white);
 	font-weight: 700;
-	z-index: 1;
+	z-index: 50;
 }
 
 .red-btn::after {
@@ -329,7 +329,7 @@ header::after {
 	background: var(--header);
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	border-radius: 16px;
-	box-shadow: -2px 2px 4px var(--shadow);
+	box-shadow: 0 0 10px var(--dark-second);
 	overflow: hidden;
 	z-index: 1;
 }
@@ -367,9 +367,9 @@ header::after {
 .banner-bonus-cash,
 .main-container {
 	background-color: var(--dark-second);
-	box-shadow: 0 0 11px var(--shadow);
+	box-shadow: 0 0 5px var(--border);
 	transition: all 0.3s ease;
-	border: 1px solid rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .banner-container:hover,

@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://www.tms75.fr/</loc>
-    <lastmod>2026-02-03</lastmod>
+    <loc>https://www.vividfloralemporium.co.uk/</loc>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.vividfloralemporium.co.uk/en-gb</loc>
+    <lastmod>2026-02-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
 </urlset>
