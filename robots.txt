@@ -9,4 +9,4 @@ Disallow: /
 User-agent: CCBot
 Disallow: /
 
-Sitemap: https://www.tms75.fr/sitemap.xml
+Sitemap: https://www.vividfloralemporium.co.uk/sitemap.xml
